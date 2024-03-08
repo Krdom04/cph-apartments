@@ -8,10 +8,9 @@ Additionally, I measured the execution time (time library in Python, timers & in
 The algorithm can be used for any sort of linear regression problem, whether it is predicting house prices based on size and the number of rooms, predicting football player's prices based on a bunch of features. It is easy to extend the features by just adding more dimensions in the code, but accuracy will most likely decrease.
 ## How to use it <br />
 By using sensible data (as too big values will cause overflow problems), one just has to it into the input and output arrays.
-
 ## Self-reflection <br />
 The project really challenged my understanding of gradient descent and linear regression. It taught me extremely valuable lessons, mostly in C, where I wasn't used to this level of independency before, as it had to be built from ground 0 and also because many concepts that I applied, weren't taught in university, at least not to the level of detail that was required to achieve what I wanted. The workarounds in C that I needed to use meant an even deeper understanding was needed of the algorithm. I am very satisfied with the results, but improvements can definitely be made in future. 
-### Results in Python vs. C <br />
+## Results in Python vs. C <br />
+Even though the same algorithm was used, Python was 50% more accurate and 2500% faster than C, for the uploaded database. I couldn't come to any conclusion as of why it might have happened.
 
-## Recommendation for future work <br />
 
