@@ -11,6 +11,7 @@ By using sensible data (as too big values will cause overflow problems), one jus
 ## Self-reflection <br />
 The project really challenged my understanding of gradient descent and linear regression. It taught me extremely valuable lessons, mostly in C, where I wasn't used to this level of independency before, as it had to be built from ground 0 and also because many concepts that I applied, weren't taught in university, at least not to the level of detail that was required to achieve what I wanted. The workarounds in C that I needed to use meant an even deeper understanding was needed of the algorithm. I am very satisfied with the results, but improvements can definitely be made in future. 
 ## Results in Python vs. C <br />
-Even though the same algorithm was used, Python was 50% more accurate and 2500% faster than C, for the uploaded database. I couldn't come to any conclusion as of why it might have happened.
+Even though the same algorithm was used, Python was 50% more accurate and 2500% faster than C, for the uploaded database. I couldn't come to any conclusion as of why it might have happened. <br/>
+Edit: I realized that the problem for the execution time was that the program was run on an Arduino Nano. Now that I run the program on my PC, it became 10x faster than the Python code, having an execution time of 0.006s. The accuracy was likely caused because of using float instead of double, which might have caused many roundings. 
 
 
